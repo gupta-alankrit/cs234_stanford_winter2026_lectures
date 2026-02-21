@@ -64,23 +64,44 @@ Lecture materials for this course are given below.
 
           {%- endfor -%}
 
-          {% if row.additional and row.additional.size > 0 %}
-            <li>
-              <span>Additional Materials:</span>
-              <ul>
-                {% for a in row.additional %}
-                  {% if a.url and a.url != "" %}
-                    {% if a.url contains "://" %}
-                      <li><a href="{{ a.url }}">{{ a.label }}</a></li>
-                    {% else %}
-                      <li><a href="{{ a.url | relative_url }}">{{ a.label }}</a></li>
-                    {% endif %}
+          {% if row.additional %}
+
+            {% assign add_items = row.additional %}
+            {% assign add_heading = nil %}
+          
+            {%- if row.additional.items -%}
+              {% assign add_items = row.additional.items %}
+              {% assign add_heading = row.additional.heading %}
+            {%- endif -%}
+          
+            {% if add_items and add_items.size > 0 %}
+              <li>
+                {% if add_heading and add_heading.url and add_heading.url != "" %}
+                  {% if add_heading.url contains "://" %}
+                    <a href="{{ add_heading.url }}">{{ add_heading.label }}</a>
                   {% else %}
-                    <li>{{ a.label }}</li>
+                    <a href="{{ add_heading.url | relative_url }}">{{ add_heading.label }}</a>
                   {% endif %}
-                {% endfor %}
-              </ul>
-            </li>
+                {% else %}
+                  <span>Additional Materials:</span>
+                {% endif %}
+          
+                <ul>
+                  {% for a in add_items %}
+                    {% if a.url and a.url != "" %}
+                      {% if a.url contains "://" %}
+                        <li><a href="{{ a.url }}">{{ a.label }}</a></li>
+                      {% else %}
+                        <li><a href="{{ a.url | relative_url }}">{{ a.label }}</a></li>
+                      {% endif %}
+                    {% else %}
+                      <li>{{ a.label }}</li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            {% endif %}
+          
           {% endif %}
         </ol>
       </td>
