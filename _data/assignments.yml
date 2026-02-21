@@ -1,14 +1,16 @@
 - event: "Assignment 1"
   status_lines:
     - parts:
-        - text: "Released ("
+        - label: "Released"
+          url: "/assets/assignments/CS234_A1_Questions.pdf"
+        - text: " ("
         - label: "LaTeX"
-          url: "/assets/assignments/a1.pdf"
+          url: "/assets/assignments/assignment1_template.zip"
         - text: ")."
     - parts:
         - text: "Starter code can be downloaded "
         - label: "here"
-          url: "/assets/assignments/a1_starter.zip"
+          url: "/assets/assignments/code.zip"
         - text: "."
 
 - event: "Assignment 2"
