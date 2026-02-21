@@ -1,0 +1,29 @@
+- topic: "Introduction"
+  items:
+    - kind: "Lecture"
+      title: "Lecture 1 — Overview"
+      links:
+        - label: "Slides"
+          url: /assets/lectures/lec01-slides.pdf
+        - label: "Notes"
+          url: /assets/notes/lec01-notes.html
+    - kind: "Additional Materials"
+      bullets:
+        - label: "Textbook Chapter 1"
+          url: https://example.com
+        - label: "Probability review"
+          url: https://example.com
+
+- topic: "Tabular MDP Planning"
+  items:
+    - kind: "Lecture"
+      title: "Lecture 2 — Value Iteration"
+      links:
+        - label: "Slides"
+          url: /assets/lectures/lec02-slides.pdf
+        - label: "Code"
+          url: https://github.com/yourname/yourrepo/tree/main/code/lec02
+    - kind: "Additional Materials"
+      bullets:
+        - label: "Short reading"
+          url: https://example.com
