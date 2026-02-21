@@ -23,12 +23,20 @@ Lecture materials for this course are given below.
       <td class="materials-col">
         <ol class="lecture-list">
           {% for l in row.links %}
-            <li><a href="{{ l.url | relative_url }}">{{ l.label }}</a></li>
+            {% if l.url and l.url != "" %}
+              {% if l.url contains "://" %}
+                <li><a href="{{ l.url }}">{{ l.label }}</a></li>
+              {% else %}
+                <li><a href="{{ l.url | relative_url }}">{{ l.label }}</a></li>
+              {% endif %}
+            {% else %}
+              <li>{{ l.label }}</li>
+            {% endif %}
           {% endfor %}
 
           {% if row.additional and row.additional.size > 0 %}
             <li>
-              <strong>Additional Materials:</strong>
+              <span>Additional Materials:</span>
               <ul>
                 {% for a in row.additional %}
                   {% if a.url and a.url != "" %}
