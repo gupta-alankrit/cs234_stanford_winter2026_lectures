@@ -40,5 +40,5 @@
     - parts:
         - text: "Starter code can be downloaded "
         - label: "here"
-          url: "/assets/assignments/a3_starter.zip"
+          url: "https://www.dropbox.com/home/CS234%20Reinforcement%20Learning%20Stanford%20Winter%202026"
         - text: "."
