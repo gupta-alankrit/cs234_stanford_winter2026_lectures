@@ -16,22 +16,26 @@
 - event: "Assignment 2"
   status_lines:
     - parts:
-        - text: "Released ("
+        - label: "Released"
+          url: "/assets/assignments/CS234_A2_Questions.pdf"
+        - text: " ("
         - label: "LaTeX"
-          url: "/assets/assignments/a2.pdf"
+          url: "/assets/assignments/assignment2_template.zip"
         - text: ")."
     - parts:
         - text: "Starter code can be downloaded "
         - label: "here"
-          url: "/assets/assignments/a2_starter.zip"
+          url: "/assets/assignments/assignment2_starter_code.zip"
         - text: "."
 
 - event: "Assignment 3"
   status_lines:
     - parts:
-        - text: "Released ("
+        - label: "Released"
+          url: "/assets/assignments/hw3_questions.pdf"
+        - text: " ("
         - label: "LaTeX"
-          url: "/assets/assignments/a3.pdf"
+          url: "/assets/assignments/hw3_template.zip"
         - text: ")."
     - parts:
         - text: "Starter code can be downloaded "
