@@ -13,77 +13,78 @@
 
 - topic: "Tabular MDP planning"
   links:
-    - label: "Lecture 2 Slides (pre-class)"
-      url: "/assets/lectures/lecture2pre.pdf"
-    - label: "Post class, annotated"
-      url: "/assets/lectures/lecture2post.pdf"
+    - lecture: 2
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture2pre.pdf"
+      post_url: "/assets/lectures/lecture2post.pdf"
   additional:
     - label: "SB (Sutton and Barto) Chp 3, 4.1-4.4"
 
 - topic: "Tabular RL policy evaluation"
   links:
-    - label: "Lecture 3 Slides (pre-class)"
-      url: "/assets/lectures/lecture3pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture3post.pdf"
+    - lecture: 3
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture3pre.pdf"
+      post_url: "/assets/lectures/lecture3post.pdf"
   additional:
     - label: "SB (Sutton and Barto) Chp 5.1, 5.5, 6.1-6.3"
 
 - topic: "Q-learning"
   links:
-    - label: "Lecture 4 Slides (pre-class)"
-      url: "/assets/lectures/lecture4pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture4post.pdf"
+    - lecture: 4
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture4pre.pdf"
+      post_url: "/assets/lectures/lecture4post.pdf"
   additional:
     - label: "SB (Sutton and Barto) Chp 5.2, 5.4, 6.4-6.5, 6.7"
 
 - topic: "Policy Gradient"
   links:
-    - label: "Lecture 5 Slides (pre-class)"
-      url: "/assets/lectures/lecture5pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture5post.pdf"
-    - label: "Lecture 6 Slides (pre-class)"
-      url: "/assets/lectures/lecture6pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture6post.pdf"
-    - label: "Lecture 7 Slides (pre-class)"
-      url: "/assets/lectures/lecture7pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture7post.pdf"
+    - lecture: 5
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture5pre.pdf"
+      post_url: "/assets/lectures/lecture5post.pdf"
+    - lecture: 6
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture6pre.pdf"
+      post_url: "/assets/lectures/lecture6post.pdf"
+    - lecture: 7
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture7pre.pdf"
+      post_url: "/assets/lectures/lecture7post.pdf"
   additional:
     - label: "SB (Sutton and Barto) Chp 13"
 
 - topic: "Imitation Learning and Learning from Human Input and Batch RL"
   links:
-    - label: "Lecture 7 Slides (pre-class)"
-      url: "/assets/lectures/lecture7pre (1).pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture7post (1).pdf"
-    - label: "Lecture 8 Slides (pre-class)"
-      url: "/assets/lectures/lecture8pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture8post.pdf"
+    - lecture: 7
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture7pre (1).pdf"
+      post_url: "/assets/lectures/lecture7post (1).pdf"
+    - lecture: 8
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture8pre.pdf"
+      post_url: "/assets/lectures/lecture8post.pdf"
 
 - topic: "Data Efficient RL"
   links:
-    - label: "Lecture 9 Slides (pre-class)"
-      url: "/assets/lectures/lecture9pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture9post.pdf"
-    - label: "Lecture 10 Slides (no pre-class)"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture10post.pdf"
-    - label: "Lecture 11 Slides (pre-class)"
-      url: "/assets/lectures/lecture11pre.pdf"
-    - label: "Post class, with annotations"
-      url: "/assets/lectures/lecture11post.pdf"
+    - lecture: 9
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture9pre.pdf"
+      post_url: "/assets/lectures/lecture9post.pdf"
+    - lecture: 10
+      title: "Slides (no pre-class)"
+      post_url: "/assets/lectures/lecture10post.pdf"
+    - lecture: 11
+      title: "Slides"
+      pre_url: "/assets/lectures/lecture11pre.pdf"
+      post_url: "/assets/lectures/lecture11post.pdf"
   additional:
     - label: "Bandit Algorithms Book Section 7.1"
       url: "/assets/lectures/banditalgorithms.pdf"
 
 - topic: "Ethics and Society Guest Lecture"
   links:
-    - label: "Lecture 10 Part Guest Slides (see latter half of slides)"
-      url: "/assets/lectures/lecture10post (1).pdf"
+    - lecture: 10
+      title: "Part Guest Slides (see latter half of slides)"
+      post_url: "/assets/lectures/lecture10post (1).pdf"
