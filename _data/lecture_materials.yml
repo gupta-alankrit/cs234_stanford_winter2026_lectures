@@ -80,8 +80,12 @@
       pre_url: "/assets/lectures/lecture11pre.pdf"
       post_url: "/assets/lectures/lecture11post.pdf"
   additional:
-    - label: "Bandit Algorithms Book Section 7.1"
-      url: "/assets/lectures/banditalgorithms.pdf"
+    heading:
+      label: "Additional Materials:"
+      url: "/assets/lectures/lecture11post (1).pdf"
+    items:
+      - label: "Bandit Algorithms Book Section 7.1"
+        url: "/assets/lectures/banditalgorithms.pdf"
 
 - topic: "Ethics and Society Guest Lecture"
   links:
