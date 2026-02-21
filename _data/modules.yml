@@ -1,23 +1,24 @@
-- topic: "Introduction to Reinforcement Learning"
-  links:
-    - label: "Lecture 1 Draft Slides [Post class version]"
-      url: "/assets/lectures/lecture1_post.pdf"
-  additional:
-    - label: "High level introduction: SB (Sutton and Barto) Chp 1"
-      url: "https://example.com"
-    - label: "Linear Algebra Review"
-      url: "https://example.com"
-    - label: "Probability Review"
-      url: "https://example.com"
-    - label: "Python Tutorial"
-      url: "https://example.com"
+- topic: "Introduction"
+  items:
+    - kind: "Lecture"
+      title: "Lecture 1 — Overview"
+      links:
+        - label: "Slides"
+          url: "/assets/lectures/lecture1_post.pdf"
+        - label: "Notes"
+          url: "/assets/lectures/lecture1_pre.pdf"
 
-- topic: "Tabular MDP planning"
-  links:
-    - label: "Lecture 2 Slides (pre-class)"
-      url: "/assets/lectures/lecture2_pre.pdf"
-    - label: "Post class, annotated"
-      url: "/assets/lectures/lecture2_post_annotated.pdf"
-  additional:
-    - label: "SB (Sutton and Barto) Chp 3, 4.1-4.4"
-      url: "https://example.com"
+    - kind: "Additional Materials"
+      bullets:
+        - label: "Sutton & Barto Ch. 1"
+          url: "https://example.com"
+
+- topic: "Tabular MDP Planning"
+  items:
+    - kind: "Lecture"
+      title: "Lecture 2 — Value Iteration"
+      links:
+        - label: "Pre-class"
+          url: "/assets/lectures/lecture2_pre.pdf"
+        - label: "Post-class"
+          url: "/assets/lectures/lecture2_post_annotated.pdf"
