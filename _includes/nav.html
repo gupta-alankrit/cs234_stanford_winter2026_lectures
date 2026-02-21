@@ -1,5 +1,5 @@
 <nav class="nav">
-  {% foin site.data.nav %}
+  {% for item in site.data.nav %}
     <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
   {% endfor %}
 </nav>
