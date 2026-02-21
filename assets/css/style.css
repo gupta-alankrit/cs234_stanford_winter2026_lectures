@@ -36,3 +36,42 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 18px 0; }
 
 .links a { margin-right: 10px; }
 .footer { border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; color: var(--muted); }
+
+/* Lecture materials table */
+.materials-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.materials-table thead th {
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  padding: 10px 8px;
+}
+
+.materials-table tbody td {
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  padding: 12px 8px;
+}
+
+.topic-col {
+  width: 32%;
+  font-weight: 500;
+}
+
+.materials-col {
+  width: 68%;
+}
+
+.lecture-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.lecture-list ul {
+  margin-top: 6px;
+  padding-left: 18px;
+}
